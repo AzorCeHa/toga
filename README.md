@@ -16,7 +16,7 @@ This original script is created by [Nazedev](https://github.com/nazedev) using N
 
 ---
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nazedev/hitori)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AzorCeHa/toga)
 
 #### Heroku Buildpack
 | Build Pack | LINK |
