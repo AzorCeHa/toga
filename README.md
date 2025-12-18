@@ -80,6 +80,9 @@ node .
 License: [MIT](https://choosealicense.com/licenses/mit/)
 
 #### Support Me
+- [Saweria](https://saweria.co/MyAzorCeHa)
+
+#### Support Original Creator
 - [Saweria](https://saweria.co/naze)
 
 ## Thanks to
