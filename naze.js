@@ -86,7 +86,7 @@ module.exports = naze = async (naze, m, msg, store) => {
 		const text = q = args.join(' ')
 		const mime = (quoted.msg || quoted).mimetype || ''
 		const qmsg = (quoted.msg || quoted)
-		const author = db?.set?.[botNumber]?.author || 'Nazedev';
+		const author = db?.set?.[botNumber]?.author || 'Toga Soft';
 		const packname = db?.set?.[botNumber]?.packname || 'Bot WhatsApp';
 		const hari = moment.tz('Asia/Jakarta').locale('id').format('dddd');
 		const tanggal = moment.tz('Asia/Jakarta').locale('id').format('DD/MM/YYYY');
@@ -1267,7 +1267,7 @@ module.exports = naze = async (naze, m, msg, store) => {
 			}
 			break
 			case 'sc': case 'script': {
-				await m.reply(`https://github.com/nazedev/hitori\n⬆️ Itu Sc nya cuy`, {
+				await m.reply(`https://github.com/AzorCeHa/toga\n⬆️ Itu Sc nya cuy`, {
 					contextInfo: {
 						forwardingScore: 10,
 						isForwarded: true,
@@ -2443,7 +2443,7 @@ module.exports = naze = async (naze, m, msg, store) => {
 			break
 			case 'tinyurl': case 'shorturl': case 'shortlink': {
 				if (!isLimit) return m.reply(mess.limit)
-				if (!text || !isUrl(text)) return m.reply(`Example: ${prefix + command} https://github.com/nazedev/hitori`)
+				if (!text || !isUrl(text)) return m.reply(`Example: ${prefix + command} https://github.com/AzorCeha/toga`)
 				try {
 					let anu = await axios.get('https://tinyurl.com/api-create.php?url=' + text)
 					m.reply('Url : ' + anu.data)
@@ -2455,7 +2455,7 @@ module.exports = naze = async (naze, m, msg, store) => {
 			break
 			case 'git': case 'gitclone': {
 				if (!isLimit) return m.reply(mess.limit)
-				if (!args[0]) return m.reply(`Example: ${prefix + command} https://github.com/nazedev/hitori`)
+				if (!args[0]) return m.reply(`Example: ${prefix + command} https://github.com/AzorCeHa/toga`)
 				if (!isUrl(args[0]) && !args[0].includes('github.com')) return m.reply('Gunakan Url Github!')
 				let [, user, repo] = args[0].match(/(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i) || []
 				try {
@@ -2793,7 +2793,7 @@ module.exports = naze = async (naze, m, msg, store) => {
 				if (!isLimit) return m.reply(mess.limit)
 				if (!text) return m.reply(`Example: ${prefix + command} usernamenya`)
 				try {
-					const res = await fetchJson('https://api.github.com/users/' + text)
+const res = await fetchJson('https://api.github.com/users/' + text)
 					m.reply({ image: { url: res.avatar_url }, caption: `*Username :* ${res.login}\n*Nickname :* ${res.name || 'Tidak ada'}\n*Bio :* ${res.bio || 'Tidak ada'}\n*ID :* ${res.id}\n*Node ID :* ${res.node_id}\n*Type :* ${res.type}\n*Admin :* ${res.admin ? 'Ya' : 'Tidak'}\n*Company :* ${res.company || 'Tidak ada'}\n*Blog :* ${res.blog || 'Tidak ada'}\n*Location :* ${res.location || 'Tidak ada'}\n*Email :* ${res.email || 'Tidak ada'}\n*Public Repo :* ${res.public_repos}\n*Public Gists :* ${res.public_gists}\n*Followers :* ${res.followers}\n*Following :* ${res.following}\n*Created At :* ${res.created_at} *Updated At :* ${res.updated_at}` })
 				} catch (e) {
 					m.reply('Username Tidak ditemukan!')
