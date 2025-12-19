@@ -1,3 +1,5 @@
+![Toga Soft](toga_soft.jpg)
+
 ## Information
 
 <div align="center">
