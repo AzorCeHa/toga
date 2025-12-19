@@ -1,5 +1,5 @@
 ![Toga Soft](toga_soft.jpg)
-### Toga Soft created by AzorCeHa, modified from the Hitori script made by Nazedev.
+#### Toga Soft created by AzorCeHa, modified from the Hitori script made by Nazedev.
 
 
 ## Information
