@@ -15,8 +15,11 @@
 </div>
 This original script is created by [Nazedev](https://github.com/nazedev) using Node.js and the [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By Naze
 
-#### Join Group
+#### Join Group GOG
 [![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JmEKycWxLBE1NmkHdIw2kl) 
+
+#### Join Group Naze
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Hx9vcBVhbc04KLVGPFtH2R) 
 
 ---
 #### Deploy to Heroku
